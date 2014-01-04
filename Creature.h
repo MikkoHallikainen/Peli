@@ -1,10 +1,10 @@
 class Creature{
 	private:
-		String name;
-		int maxHP;
-		int currentHP;
+		String v_name;
+		int v_maxHP;
+		int v_currentHP;
 	public:
-		String getName;
-		int getMaxHP;
-		int getCurrentHP;
+		String getName();
+		int getMaxHP();
+		int getCurrentHP();
 }

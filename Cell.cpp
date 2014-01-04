@@ -1,25 +1,27 @@
 class Cell{
-	Cell::Cell(bool accessible, int ID); // constructor
+	Cell::Cell(bool accessible, int ID) // constructor
 	{
 	    v_accessible = accessible;
+		v_uniqueID = ID;
 	}
+
 	/*
 	 * Returns boolean value which tells
 	 * whether or not the cell is accessible
 	 * by creatures.
 	 */
-	bool getAccessible {
-		return true;
+	bool Cell::getAccessible() {
+		return v_accessible;
 	}
 		/*
 	 * Returns amount of cells which are neigbours.
 	 */
-	int getNeighbours{
+	int Cell::getNeighbours(){
 		return 0;
 	}
 	
 	// Dummy-toteutus. Pit‰‰ mietti‰ kunnolla.
-	int getTerrain {
+	int Cell::getTerrain() {
 		return 0;
 	}
 	/*

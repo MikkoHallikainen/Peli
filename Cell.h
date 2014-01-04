@@ -10,5 +10,5 @@ class Cell
 		int v_terrain;
 		bool v_accessible;
 		Creature i_occupiedCreature;
-		
+	
 };
