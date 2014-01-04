@@ -1,14 +1,14 @@
 class Cell
 {
 	public:
-		bool getAccessible;
-		int getNeighbours;
-		int getTerrain;
-		Creature getOccupiedCreature
+		bool getAccessible();
+		int getNeighbours();
+		int getTerrain();
+		Creature getOccupiedCreature()
 	private:
-		int uniqueID;
-		int terrain;
-		bool accessible;
-		Creature occupiedCreature;
+		int v_uniqueID;
+		int v_terrain;
+		bool v_accessible;
+		Creature i_occupiedCreature;
 		
 };
