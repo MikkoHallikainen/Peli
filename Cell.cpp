@@ -1,7 +1,5 @@
-#include "Cell.h"
-
 class Cell{
-	// HEIPPA!
+	// HEIPPA!!
 	Cell::Cell(bool accessible, int ID) // constructor
 	{
 	    v_accessible = accessible;
