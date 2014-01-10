@@ -1,22 +1,22 @@
 #include <string>
+#include "Creature.h"
 
-class Creature{
-	
-	Creature::Creature(String name, int maxHP, int currentHP){
-		v_name = name;
-		v_maxHP = maxHP;
-		v_currentHP = currentHP;
-	}
+//Creature::Creature(std::string name, int maxHP, int currentHP){
+Creature::Creature(int maxHP, int currentHP){
+	//m_name = name;
+	m_maxHP = maxHP;
+	m_currentHP = currentHP;
+}
 
-	String getName(){
-		return v_name;
-	}
+/*
+std::string Creature::getName(){
+	return m_name;
+}
+*/
 
-	int getMaxHP(){
-		return v_maxHP
-	}
-	int getCurrentHP(){
-		return v_currentHP;
-	}
-
+int Creature::getMaxHP(){
+	return m_maxHP;
+}
+int Creature::getCurrentHP(){
+	return m_currentHP;
 }
