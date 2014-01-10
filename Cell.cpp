@@ -1,4 +1,5 @@
 class Cell{
+	// HEIPPA!
 	Cell::Cell(bool accessible, int ID) // constructor
 	{
 	    v_accessible = accessible;
