@@ -2,6 +2,6 @@
 #include "Creature.h"
 	
 int main() {
-	Creature creature (3, 4);
+	Creature creature ("Hami Sirviö", 3, 4);
 	std::cout << "Hello world!" << std::endl;
 }
