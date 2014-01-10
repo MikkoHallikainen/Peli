@@ -1,3 +1,5 @@
+#include "Cell.h"
+
 class Cell{
 	// HEIPPA!
 	Cell::Cell(bool accessible, int ID) // constructor
