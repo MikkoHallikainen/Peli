@@ -1,14 +1,30 @@
+#include "Creature.h"
+
 class Cell
 {
 	public:
 		bool getAccessible();
 		int getNeighbours();
 		int getTerrain();
-		Creature getOccupiedCreature()
+		Creature getOccupiedCreature();
+
+		Cell()
+
 	private:
-		int v_uniqueID;
-		int v_terrain;
-		bool v_accessible;
+		int m_uniqueID;
+		int m_terrain;
+		bool m_accessible;
 		Creature i_occupiedCreature;
-	
+		/*
+			cell(id, tyyppi, attribuutit)  
+				-id++
+			kartta: id, naapuri1 - naapuri6
+			(kun painan speissiä, kuulen kohinaa.)
+
+			attribuutit:
+				-voiko mennä
+				-action()
+					-ovi?
+
+		*/
 };
