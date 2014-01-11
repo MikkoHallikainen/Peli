@@ -1,5 +1,7 @@
-#ifndef Creature_h
-#define Creature_h
+#ifndef CREATURE_H
+#define CREATURE_H
+
+#include <string>
 
 class Creature
 {
@@ -7,7 +9,9 @@ class Creature
 		std::string getName();
 		int getMaxHP();
 		int getCurrentHP();
+
 		Creature(std::string, int, int);
+		Creature();
 		
 	private:
 		std::string m_name;
