@@ -67,6 +67,7 @@ Creature Cell::getOccupiedCreature()
 /*
  * Set occupied creature.
  */
-void Cell::setOccupiedCreature(Creature creature){
+void Cell::setOccupiedCreature(Creature creature)
+{
 	m_occupiedCreature = creature;
 }
